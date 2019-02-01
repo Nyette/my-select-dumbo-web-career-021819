@@ -1,9 +1,7 @@
 def my_select(collection)
   new_collection = []
-  if collection.size == 0
-  
-  else
-    i = 0
+  i = 0
+  if collection.size > 0
     while i < collection.size
       element = collection[i]
       if element.even?
