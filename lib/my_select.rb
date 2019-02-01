@@ -3,7 +3,7 @@ def my_select(collection)
   i = 0
   while i < collection.size
     element = collection[i]
-    new_collection << element if yield(element)
+    new_collection << element if yield(element) 
       end
       i += 1
     end
