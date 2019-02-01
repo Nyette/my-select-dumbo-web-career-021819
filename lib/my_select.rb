@@ -6,7 +6,7 @@ def my_select(collection)
     i = 0
     while i < collection.size
       element = collection[i]
-      if element.even? == true
+      if element.even?
         new_collection << yield(element)
       end
       i += 1
